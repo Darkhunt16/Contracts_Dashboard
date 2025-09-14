@@ -1,4 +1,4 @@
-# 📝 Dashboard
+# 📝 Contracts Dashboard
 
 A feature-rich and interactive Contracts Dashboard built with React, designed to help users efficiently manage, monitor, and analyze contracts in one place. The dashboard includes contract filtering, clause insights, evidence tracking, and customizable views, along with real-time search and a responsive layout for seamless use on both desktop and mobile.
 
