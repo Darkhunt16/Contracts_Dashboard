@@ -1,0 +1,45 @@
+{
+  "id": "c3",
+  "name": "Cloud Hosting SLA",
+  "parties": "AWS & ABC Corp",
+  "start": "2024-03-15",
+  "expiry": "2026-03-15",
+  "status": "Active",
+  "risk": "Low",
+  "clauses": [
+    {
+      "title": "Uptime Commitment",
+      "summary": "AWS guarantees 99.9% uptime with service credits for downtime.",
+      "confidence": 0.93
+    },
+    {
+      "title": "Data Residency",
+      "summary": "Customer data must remain within the US data centers unless otherwise agreed.",
+      "confidence": 0.89
+    },
+    {
+      "title": "Termination",
+      "summary": "Either party may terminate with 60 days written notice.",
+      "confidence": 0.85
+    }
+  ],
+  "insights": [
+    { "risk": "Low", "message": "SLA provides strong uptime guarantees." },
+    {
+      "risk": "Medium",
+      "message": "Data residency limited to US regions may create compliance risks for EU operations."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "Section 5.1",
+      "snippet": "AWS shall maintain at least 99.9% uptime; service credits apply for SLA breaches.",
+      "relevance": 0.95
+    },
+    {
+      "source": "Section 8.3",
+      "snippet": "All customer data will be hosted exclusively within US-based data centers unless otherwise agreed in writing.",
+      "relevance": 0.88
+    }
+  ]
+}

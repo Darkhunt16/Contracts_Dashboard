@@ -1,0 +1,48 @@
+{
+  "id": "c10",
+  "name": "Supply Chain Logistics",
+  "parties": "DHL & ABC Corp",
+  "start": "2025-04-01",
+  "expiry": "2025-10-22",
+  "status": "Pending Approval",
+  "risk": "Medium",
+  "clauses": [
+    {
+      "title": "Delivery Commitment",
+      "summary": "DHL commits to delivering all shipments within agreed timelines with tracking.",
+      "confidence": 0.92
+    },
+    {
+      "title": "Liability",
+      "summary": "Liability for lost/damaged goods is limited to declared shipment value.",
+      "confidence": 0.88
+    },
+    {
+      "title": "Termination",
+      "summary": "Either party can terminate the agreement with 45 days notice.",
+      "confidence": 0.85
+    }
+  ],
+  "insights": [
+    {
+      "risk": "Medium",
+      "message": "Pending approval may delay implementation of logistics services."
+    },
+    {
+      "risk": "High",
+      "message": "Limited liability may expose ABC Corp to financial loss if high-value shipments are damaged."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "Section 5.1",
+      "snippet": "DHL will deliver all shipments within the agreed timelines with full tracking.",
+      "relevance": 0.93
+    },
+    {
+      "source": "Section 6.4",
+      "snippet": "Liability for lost or damaged goods is limited to the declared shipment value unless otherwise agreed.",
+      "relevance": 0.89
+    }
+  ]
+}

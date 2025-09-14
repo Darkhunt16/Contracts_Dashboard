@@ -1,0 +1,48 @@
+{
+  "id": "c5",
+  "name": "Software Licensing Agreement",
+  "parties": "Oracle & ABC Corp",
+  "start": "2022-09-30",
+  "expiry": "2025-09-30",
+  "status": "Expired",
+  "risk": "High",
+  "clauses": [
+    {
+      "title": "License Grant",
+      "summary": "ABC Corp is granted a non-exclusive, non-transferable license for the software.",
+      "confidence": 0.88
+    },
+    {
+      "title": "Maintenance & Support",
+      "summary": "Oracle will provide updates and support during the license term.",
+      "confidence": 0.85
+    },
+    {
+      "title": "Termination",
+      "summary": "License automatically terminates if fees are unpaid or terms are violated.",
+      "confidence": 0.82
+    }
+  ],
+  "insights": [
+    {
+      "risk": "High",
+      "message": "License termination clauses could interrupt business continuity."
+    },
+    {
+      "risk": "Medium",
+      "message": "Renewal process may require manual negotiation."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "Section 3.1",
+      "snippet": "The license granted is non-exclusive and non-transferable.",
+      "relevance": 0.9
+    },
+    {
+      "source": "Section 6.4",
+      "snippet": "License terminates immediately if fees are not paid or terms are breached.",
+      "relevance": 0.88
+    }
+  ]
+}

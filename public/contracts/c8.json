@@ -1,0 +1,48 @@
+{
+  "id": "c8",
+  "name": "Outsourcing Agreement",
+  "parties": "Infosys & ABC Corp",
+  "start": "2025-06-01",
+  "expiry": "2025-12-01",
+  "status": "Active",
+  "risk": "High",
+  "clauses": [
+    {
+      "title": "Service Scope",
+      "summary": "Infosys will provide IT support, application maintenance, and helpdesk services.",
+      "confidence": 0.9
+    },
+    {
+      "title": "SLAs",
+      "summary": "Service Level Agreements specify 24/7 support with 2-hour response time for critical issues.",
+      "confidence": 0.88
+    },
+    {
+      "title": "Termination",
+      "summary": "Either party may terminate with 60 days prior written notice.",
+      "confidence": 0.85
+    }
+  ],
+  "insights": [
+    {
+      "risk": "High",
+      "message": "High dependency on Infosys may affect business continuity if services are disrupted."
+    },
+    {
+      "risk": "Medium",
+      "message": "Termination notice period may not be sufficient for knowledge transfer."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "Section 4.1",
+      "snippet": "Infosys shall provide IT support, application maintenance, and helpdesk services as defined in this agreement.",
+      "relevance": 0.92
+    },
+    {
+      "source": "Section 7.3",
+      "snippet": "Termination requires 60 days written notice; critical services should be transitioned smoothly.",
+      "relevance": 0.88
+    }
+  ]
+}

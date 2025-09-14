@@ -1,0 +1,48 @@
+{
+  "id": "c9",
+  "name": "Marketing Collaboration",
+  "parties": "Meta & ABC Corp",
+  "start": "2025-01-01",
+  "expiry": "2026-05-01",
+  "status": "Active",
+  "risk": "Low",
+  "clauses": [
+    {
+      "title": "Collaboration Scope",
+      "summary": "Meta and ABC Corp will jointly run digital marketing campaigns.",
+      "confidence": 0.91
+    },
+    {
+      "title": "Revenue Sharing",
+      "summary": "Net profits from campaigns will be split 60/40 between Meta and ABC Corp.",
+      "confidence": 0.88
+    },
+    {
+      "title": "Termination",
+      "summary": "Either party may terminate with 30 days written notice.",
+      "confidence": 0.84
+    }
+  ],
+  "insights": [
+    {
+      "risk": "Low",
+      "message": "Well-defined collaboration minimizes financial and operational risk."
+    },
+    {
+      "risk": "Medium",
+      "message": "Revenue share disputes may arise if campaign metrics are unclear."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "Section 2.1",
+      "snippet": "Both parties shall collaboratively run digital marketing campaigns per agreed strategy.",
+      "relevance": 0.9
+    },
+    {
+      "source": "Section 3.3",
+      "snippet": "Net profits will be split 60/40; metrics and calculations documented monthly.",
+      "relevance": 0.87
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "c4",
+  "name": "HR Payroll Services",
+  "parties": "Workday & ABC Corp",
+  "start": "2024-06-01",
+  "expiry": "2025-11-20",
+  "status": "Pending Approval",
+  "risk": "Medium",
+  "clauses": [
+    {
+      "title": "Service Scope",
+      "summary": "Includes payroll processing, tax filing, and employee record management.",
+      "confidence": 0.9
+    },
+    {
+      "title": "Data Protection",
+      "summary": "Provider must comply with GDPR and maintain encryption at rest and in transit.",
+      "confidence": 0.86
+    },
+    {
+      "title": "Termination",
+      "summary": "Contract may be terminated with 45 days prior notice.",
+      "confidence": 0.83
+    }
+  ],
+  "insights": [
+    {
+      "risk": "Medium",
+      "message": "Pending approval may delay payroll migration timelines."
+    },
+    {
+      "risk": "High",
+      "message": "Data protection obligations unclear on subcontractor access to payroll records."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "Section 7.4",
+      "snippet": "Workday will process payroll, tax filings, and maintain employee data on behalf of ABC Corp.",
+      "relevance": 0.9
+    },
+    {
+      "source": "Section 10.2",
+      "snippet": "All personal data shall be encrypted at rest and in transit.",
+      "relevance": 0.87
+    }
+  ]
+}

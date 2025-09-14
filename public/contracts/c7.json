@@ -1,0 +1,48 @@
+{
+  "id": "c7",
+  "name": "Data Processing Addendum",
+  "parties": "Google & ABC Corp",
+  "start": "2024-08-15",
+  "expiry": "2025-08-15",
+  "status": "Renewal Due",
+  "risk": "Medium",
+  "clauses": [
+    {
+      "title": "Data Processing",
+      "summary": "Google processes customer data only for the purposes outlined in the agreement.",
+      "confidence": 0.9
+    },
+    {
+      "title": "Data Security",
+      "summary": "All data must be encrypted in transit and at rest, with access controls in place.",
+      "confidence": 0.88
+    },
+    {
+      "title": "Subprocessor Use",
+      "summary": "Google may use subprocessors with prior notification and written agreement.",
+      "confidence": 0.85
+    }
+  ],
+  "insights": [
+    {
+      "risk": "Medium",
+      "message": "Renewal needed soon to remain compliant with GDPR obligations."
+    },
+    {
+      "risk": "High",
+      "message": "Subprocessor approvals may delay processing if not managed properly."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "Section 3.2",
+      "snippet": "Data processing limited to specified purposes; unauthorized use prohibited.",
+      "relevance": 0.92
+    },
+    {
+      "source": "Section 5.1",
+      "snippet": "Subprocessors will be used only with prior notice and written consent.",
+      "relevance": 0.87
+    }
+  ]
+}

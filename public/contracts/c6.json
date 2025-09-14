@@ -1,0 +1,48 @@
+{
+  "id": "c6",
+  "name": "Consulting Engagement",
+  "parties": "Deloitte & ABC Corp",
+  "start": "2025-01-05",
+  "expiry": "2026-01-05",
+  "status": "Active",
+  "risk": "Low",
+  "clauses": [
+    {
+      "title": "Scope of Work",
+      "summary": "Deloitte will provide strategic consulting services including business process optimization.",
+      "confidence": 0.92
+    },
+    {
+      "title": "Payment Terms",
+      "summary": "Fees are milestone-based, payable within 30 days of invoice.",
+      "confidence": 0.88
+    },
+    {
+      "title": "Termination",
+      "summary": "Either party can terminate with 30 days written notice.",
+      "confidence": 0.85
+    }
+  ],
+  "insights": [
+    {
+      "risk": "Low",
+      "message": "Milestone-based payment ensures predictable cash flow."
+    },
+    {
+      "risk": "Medium",
+      "message": "Scope changes require formal change requests to avoid disputes."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "Section 2.1",
+      "snippet": "Consulting services include strategy, process optimization, and implementation advisory.",
+      "relevance": 0.93
+    },
+    {
+      "source": "Section 4.2",
+      "snippet": "Invoices are payable within 30 days of issuance; milestones are clearly defined.",
+      "relevance": 0.89
+    }
+  ]
+}
